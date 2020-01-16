@@ -1,0 +1,18 @@
+{
+    "name": "artnet-backend-extension-pack",
+    "displayName": "artnet backend extension pack",
+    "publisher": "artnet",
+    "description": "vscode extensions for backend dev",
+    "version": "0.0.1",
+    "icon": "artnet-icon.png",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "ms-vscode.csharp",
+        "ms-vscode-remote.remote-containers"
+    ]
+}
